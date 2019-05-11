@@ -1,0 +1,31 @@
+@media screen and (max-width:780px){
+    .navigation{
+        height: auto;
+    }
+    .header-nav{
+        flex-wrap:wrap;
+    }
+    .header-nav li a {
+        padding: 7.7px;
+    }
+    .home{
+        height: auto;
+    }
+    .slider{
+        margin-top:46px; 
+    }
+    .louvre-info .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .louvre-info .container:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    .louvre-info .container img{
+        height: auto;
+        width: 100%;
+    }
+    .louvre-info .container .text {
+        width: 100%;
+    }
+}

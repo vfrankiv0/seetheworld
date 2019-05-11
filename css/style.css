@@ -1,0 +1,171 @@
+.html{
+    font-family:Helvetica,Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.navigation{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(45,45,45,0.98);
+    color:white;
+    position: fixed;
+    font-size:13.5px;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    justify-content: center;
+}
+
+.navigation nav{
+    height: 100%;
+}
+
+.header-nav{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav li{
+    list-style: none;
+    height: 100%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav li a:hover{
+    cursor: pointer;
+    color:rgb(182, 174, 174);
+}
+
+.home{
+    height: 100vh;
+    background-color: #bdbdbd;
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fade-in .4s ease;
+}
+
+.home h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.home .home-text{
+    text-align: justify;
+}
+
+
+/* louvre */
+.louvre{
+    height: 100%;
+    background-color: #a8a8a8;
+}
+
+.hermitage{
+    height: 100%;
+    background-color: #939393;
+}
+
+.prado{
+    height: 100%;
+    background-color: #7e7e7e;
+}
+
+.british{
+    height: 100%;
+    background-color: #696969;
+}
+
+.uffizi{
+    height: 100%;
+    background-color:#7e7e7e;
+}
+
+.rijksmuseum{
+    height: 100%;
+    background-color:#696969;
+}
+.louvre-info {
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.louvre-info .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.louvre-info .container .title {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .louvre-info .container h2 {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+} */
+
+.louvre-info .container img {
+    width: 50%;
+}
+
+.louvre-info .container .text {
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* .louvre-info h2{
+    min-width: 20%;
+    text-align: center;
+}
+
+.text{
+    text-align: justify;
+    width: 80%;
+
+}
+#louvre-img {
+    height:1000px;
+    width:700px;
+    margin-left:600px;
+    float:left;
+} */
